@@ -15,7 +15,7 @@ Referenties kunnen op drie plaatsen staan:
 
 - In SpecRef [Specref](https://www.specref.org/)
 - In de organisatie configuraties [[SemVer]]. Deze zijn te vinden op [tools.geostandaarden.nl](https://github.com/Geonovum/tools.geostandaarden.nl/blob/main/tools.geostandaarden.nl/respec/config/geonovum-config.js).
-- In het document, zoals [[MIM12]]. Deze zijn te vinden in `js/config.js`.
+- In het document, zoals MIM12. Deze zijn te vinden in `js/config.js`.
 
 Referentie uit organisatie lijst [[SemVer]] of de locale lijst MIM12. Lijst staat in `organisation-config.js`. Alleen referenties die in de tekst voorkomen worden getoond.
 

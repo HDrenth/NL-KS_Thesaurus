@@ -1,11 +1,8 @@
 // Dit bestand is gepubliceerd als https://tools.geostandaarden.nl/respec/config/geonovum-config.js, voor hergebruik in Geonovum ReSpec documenten.
 var organisationConfig = {
-    nl_organisationName: "Ketenstandaard",
+    nl_organisationName: "Ketenstandaard Bouw & Techniek",
     // werkt nog niet 
     nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/style/",
-    // bv styles url voor ander GN publicatiedomein met eigen stijlen zoals DSO of BRO:
-    // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/dso/style/",
-    // nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/bro/style/",
     nl_organisationPublishURL: "https://docs.ketenstandaard.nl/",
     logos: [{
         src: "https://ketenstandaard.nl/app/themes/theme-ketenstandaard/public/images/logo-ketenstandaard-bouw-en-techniek.351dbb.svg",
@@ -73,7 +70,7 @@ var organisationConfig = {
             sotd: "Status van dit document",
             def: `Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
             wv: `Dit is een werkversie die op elk moment kan worden gewijzigd, verwijderd of vervangen door andere documenten. Het is geen stabiel document.`,
-            cv: `Dit is een consultatieversie. Commentaar over dit document kan gestuurd worden naar `,
+            cv: `Dit is een consultatieversie. Commentaar over dit document kan worden ingediend via de link 'Dien een Melding in' bovenaan deze pagina.`,
             vv: `Dit is de definitieve conceptversie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.`,
             basis: "Dit is een document zonder officiÃ«le status.",
             ld: "Dit is een levend document dat regelmatig gewijzigd wordt."
@@ -82,7 +79,7 @@ var organisationConfig = {
             sotd: "Status of this document",
             def: `This is the definitive version of this document. Edits resulting from consultations have been applied.`,
             wv: `This is a working draft that can be changed, removed or replaced by other documents at any time. It is not a stable document.`,
-            cv: `This is a stable draft, published for public comment. Comments regarding this document may be sent to `,
+            cv: `This is a stable draft, published for public comment. Comments regarding this document may be submitted via the 'Submit a Comment' link at the top of this page.`,
             vv: `This is the final draft of this document. Edits resulting from consultations have been applied.`,
             basis: "This document has no official standing.",
             ld: "This is a living document, which is updated regularly."
