@@ -19,9 +19,9 @@ Elk item moet bevatten:
 - Synoniemen (skos:altLabel)
 <p class="note" title="Voorbeeld">
 Een begrip "metselwerk" (skos:preflabel) kan de volgende relaties hebben:<br>
-- Bredere term: Bouwtechniek (skos:broader)<br>
-- Gerelateerde term: Voegwerk (skos:related)<br>
-- Alternatieve benaming: Baksteenconstructie (skos:altLabel)<br>
+<li> Bredere term: Bouwtechniek (skos:broader)<br>
+<li> Gerelateerde term: Voegwerk (skos:related)<br>
+<li> Alternatieve benaming: Baksteenconstructie (skos:altLabel)<br>
 </p>
 
 ## Metadata en Statusbeheer
