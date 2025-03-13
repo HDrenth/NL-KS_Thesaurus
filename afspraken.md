@@ -1,39 +1,46 @@
-# Meer inhoud
+# Eisen aan Thesaurus-items
+## Doel
+Dit document beschrijft de technische en functionele eisen voor thesaurus-items.
+## Doelgroep
+- Ontwikkelaars en beheerders
+- Functioneel beheerders
+- Gebruikers
+## Basisvereisten
+Elk item moet bevatten:
+- Unieke identifier (URI) (Gebruik van RDFS en NEN2660)
+- Naam (Label) (rdfs:label, skos:prefLabel)
+- Definitie (skos:definition, dc:description)
+- Herkomst/Bron (dc:source)
+- Auteur/Verantwoordelijke (dc:creator)
+### Meertalige ondersteuning
+- Labels met taal-tags (@nl, @en)
+## Relationele Vereisten
+- Bredere term (skos:broader, rdfs:subClassOf)
+- Smallere term (skos:narrower)
+- Gerelateerde term (skos:related)
+- Synoniemen (skos:altLabel)
+Voorbeeld: Een begrip "metselwerk" kan de volgende relaties hebben:
+- Bredere term: Bouwtechniek (skos:broader)
+- Gerelateerde term: Voegwerk (skos:related)
+- Alternatieve benaming: Baksteenconstructie (skos:altLabel)
+## Metadata en Statusbeheer
+- Statussen: Actief, Deprecated, Concept
+- Laatste wijzigingsdatum (dc:modified)
+- Validatiehistorie (dc:provenance)
+## Consistentie en Taalregels
+- Hoofdlettergebruik: Standaard kleine letters
+- Enkelvoud vs. meervoud: Bij voorkeur enkelvoud
+- Gebruik natuurlijke taal: 'Algemeen Bouwend Nederlands'
+## Definities en Differentia-principes
+Definities moeten genus (breder begrip) en differentia (onderscheidende kenmerken) bevatten.
+Goede definities:
+- "Een raam is een bouwdeel (genus) dat daglicht en/of lucht doorlaat en meestal transparant is (differentia)."
+- "Een kozijn is een frame (genus) dat een raam of deur omsluit en deze verbindt met de omringende constructie (differentia)."
+## Begrippen en Concepten
+- Term: Taalkundige weergave van een begrip.
+- Begrip: De eenduidige en gedefinieerde betekenis van een term.
+- Concept: Abstract idee, niet gebonden aan taal.
+## Evaluatie en Doorontwikkeling
+- Periodieke evaluatie en feedbackverwerking.
+Dit document biedt een volledig overzicht van de visie, governance en technische eisen van de Thesaurus. Evaluaties en feedback worden regelmatig verwerkt om de thesaurus actueel en relevant te houden.
 
-## Definities
-<dfn>Definitie</dfn>: Een definitie is een beschrijving van een woord. Een ander woord voor _definitie_ is betekenis of beschrijving.
-
-## Afbeeldingen
-
-Afbeeldingen krijgen een nummer en vermelding in de figurenlijst [[[#tof]]].
-
-![Tekstueel alternatief voor toegankelijkheid](media/Bomos_levenscyclus.svg "Onderschrift")
-
-## Referenties
-
-Referenties kunnen op drie plaatsen staan:
-
-- In SpecRef [Specref](https://www.specref.org/)
-- In de organisatie configuraties [[SemVer]]. Deze zijn te vinden op [tools.geostandaarden.nl](https://github.com/Geonovum/tools.geostandaarden.nl/blob/main/tools.geostandaarden.nl/respec/config/geonovum-config.js).
-- In het document, zoals MIM12. Deze zijn te vinden in `js/config.js`.
-
-Referentie uit organisatie lijst [[SemVer]] of de locale lijst MIM12. Lijst staat in `organisation-config.js`. Alleen referenties die in de tekst voorkomen worden getoond.
-
-We gebruiken een <a>definitie</a> om een woord te omschrijven.
-
-## Optioneel
-
-De onderstaande secties (_Conformiteit_ e.d.) zijn optioneel, zie `index.html`:
-
-```
-<body>
-  <section id="abstract" data-include-format="markdown" data-include="abstract.md"></section>
-  <section id="sotd"></section><!-- Wordt automatisch gevuld -->
-  <section data-include-format="markdown" class="informative" data-include="ch01.md"></section>
-  <section data-include-format="markdown" data-include="ch02.md"></section>
-  <!-- Hieronder optionele secties. Worden automatisch gevuld -->
-  <section id='conformance'></section>
-  <section id='tof'></section>
-  <section id="index"></section>
-</body>
-```
