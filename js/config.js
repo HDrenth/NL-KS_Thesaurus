@@ -2,11 +2,11 @@ let respecConfig = {
   useLogo: true,
   useLabel: true,
   // title is verplicht! Neem hier de titel van het document op ----------------------
-  title: "[TODO: Neem titel op in config.js]",
+  title: "Ketenstandaard Thesaurus",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  specStatus: "wv",                   // Werkversie
-  //specStatus: "cv",               // Consultatieversie
-  //specStatus: "vv",               // Versie ter vaststelling
+  //specStatus: "wv",               // Werkversie
+  specStatus: "cv",               // Consultatieversie
+  // specStatus: "vv",              // Versie ter vaststelling
   //specStatus: "def",              // Vastgestelde versie
   //specStatus: "basis",            // Basis Document
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
@@ -14,20 +14,20 @@ let respecConfig = {
   //specType: "ST",                 // Standaard
   //specType: "IM",                 // Informatie Model
   //specType: "PR",                 // Praktijkrichtlijn
-  specType: "HR",                     // HandReiking
-  //specType: "WA",                 // Werkafspraak
+  //specType: "HR",                 // HandReiking
+  specType: "WA",                   // Werkafspraak
   //specType: "BD",                 // Beheer Documentatie
   //specType: "AL",                 // Algemeen document
   //specType: "BP",                 // Best Practice
   //-- pubDomain is verplicht! (komt in de URL) -------------------------------------
   //-- zie: https://geonovum.github.io/handleiding-tooling/ReSpec/#pubdomain
-  pubDomain: "TODO",
+  pubDomain: "KSInt",
   //-- license: voor de geldende gebruiksvoorwaarden. Default is cc-by.
-  //license: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
-  //license: "cc0",                 // Public Domain Dedication
-  license: "cc-by",                 // Attribution, met bronvermelding
+  license: "cc-by-nd",              // bronvermelding, geen afgeleide werken (default)
+  // license: "cc0",                 // Public Domain Dedication
+  // license: "cc-by",              // Attribution, met bronvermelding
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
-  shortName: "NL-ReSpec-GN-template",
+  shortName: "NL-KS_Thesaurus",
   
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
 	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
@@ -46,9 +46,9 @@ let respecConfig = {
   editors:
     [
       {
-        name: "voornaam achternaam",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl",
+        name: "Herman Drenth",
+        company: "Ketenstandaard",
+        companyURL: "https://www.ketenstandaard.nl",
       }
     ],
   //-- de namen van de auteur(s) ------------------------------------------------------
@@ -56,35 +56,35 @@ let respecConfig = {
   authors:
     [
       {
-        name: "voornaam achternaam",
-        company: "Geonovum",
-        companyURL: "https://www.geonovum.nl",
+        name: "Herman Drenth",
+        company: "Ketenstandaard",
+        companyURL: "https://www.ketenstandaard.nl",
       }
     ],
   // TODO: Vul de github URL in.
   //neem hier de URL van de github repository op waar het respec document in staat
-  github: "https://github.com/Geonovum/NL-ReSpec-GN-template",
+  github: "https://github.com/HDrenth/NL-KS_Thesaurus",
   // Create PDF and link to file in header (optional):
   // TODO: Change the filename as preferred.
-  alternateFormats: [
-      {
-          label: "pdf",
-          uri: "template.pdf",
-      },
-  ],
+  // alternateFormats: [
+  //     {
+  //         label: "pdf",
+  //         uri: "template.pdf",
+  //     },
+  // ],
   // Lokale lijst voor bibliografie
   // - Kijk eerst naar de beschikbare www.specref.org .
   // - Kijk daarna in de organisatieconfig.
   // - Voeg dan pas hieronder toe.
   localBiblio: 
   {
-    MIM12: {
-      id: "MIM12",
-      title: "MIM - Metamodel Informatie Modellering (Versie 1.2)",
-      href: "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
-      status: "Definitief",
-      publisher: "Geonovum",
-      date: "2024-06-13"
-    }
+    // MIM12: {
+    //   id: "MIM12",
+    //   title: "MIM - Metamodel Informatie Modellering (Versie 1.2)",
+    //   href: "https://docs.geostandaarden.nl/mim/def-st-mim-20240613/",
+    //   status: "Definitief",
+    //   publisher: "Geonovum",
+    //   date: "2024-06-13"
+    // }
   }
 };
