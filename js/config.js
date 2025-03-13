@@ -86,30 +86,6 @@ let respecConfig = {
     //   status: "Definitief",
     //   publisher: "Geonovum",
     //   date: "2024-06-13"
-    // }
-    Term: {
-      id: "term",
-      title: "Taalkundige weergave van een begrip",
-      href: "link naar thesaurus",
-      status: "Definitief",
-      publisher: "Ketenstandaard",
-      date: "2025-03-13"
-    },
-    Begrip: {
-      id: "begrip",
-      title: "De eenduidige en gedefinieerde betekenis van een term",
-      href: "link naar thesaurus",
-      status: "Definitief",
-      publisher: "Ketenstandaard",
-      date: "2025-03-13"
-    },
-    Concept: {
-      id: "concept",
-      title: "Abstract idee, niet gebonden aan taal",
-      href: "link naar thesaurus",
-      status: "Definitief",
-      publisher: "Ketenstandaard",
-      date: "2025-03-13"
-    },
+    // },
   }
 };
