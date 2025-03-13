@@ -5,11 +5,11 @@ var organisationConfig = {
     nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/style/",
     nl_organisationPublishURL: "https://docs.ketenstandaard.nl/",
     logos: [{
-        src: "https://ketenstandaard.nl/app/themes/theme-ketenstandaard/public/images/logo-ketenstandaard-bouw-en-techniek.351dbb.svg",
+        src: "https://mijn.ketenstandaard.nl/images/logo_samen_sterker.svg",
         alt: "Ketenstandaard",
         id: "Ketenstandaard",
-        height: 67,
-        width: 132,
+        height: 64,
+        width: 214,
         url: "https://www.ketenstandaard.nl",
       }],
 	
