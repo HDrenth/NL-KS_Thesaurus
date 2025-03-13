@@ -1,8 +1,5 @@
-# Visie Thesaurus
-Voor bouwprofessionals en standaardbeheerders die eenduidige en gestandaardiseerde begrippen willen hanteren, is de Thesaurus een centrale kennisbron die interoperabiliteit en consistente terminologie ondersteunt. In tegenstelling tot losstaande standaarden en gesloten systemen, biedt onze Thesaurus een flexibele, uitbreidbare en open woordenlijst, gebaseerd op Linked Data en internationale standaarden.
-Onze visie is om een flexibele en schaalbare kennisstructuur te creëren die:
-•	Eenduidigheid bevordert: Gestandaardiseerde begrippen zorgen voor een consistente taal binnen de sector.
-•	Interoperabiliteit ondersteunt: De thesaurus koppelt standaarden en systemen indirect via gedeelde begrippen.
-•	Gebruikersgericht en toegankelijk is: Eenvoudige toegang via een interface, API's en integraties.
-•	Dynamisch en uitbreidbaar blijft: Nieuwe begrippen, relaties en standaarden kunnen eenvoudig worden toegevoegd.
-•	Gebaseerd is op open standaarden: SKOS, Dublin Core en NEN2660 als uitgangspunt.
+De Ketenstandaard Thesaurus voor bouwprofessionals en standaardbeheerders biedt een centrale kennisbron voor eenduidige en gestandaardiseerde terminologie. Door het gebruik van Linked Data en (internationale) standaarden, zoals SKOS en NEN2660, ondersteunt de thesaurus interoperabiliteit, toegankelijkheid en flexibiliteit.
+
+De governance-structuur beschrijft de processen en rollen voor beheer, wijzigingsbeheer en toegangscontrole. Een gestructureerd wijzigingsbeheerproces waarborgt de kwaliteit en consistentie van begrippen, met duidelijke criteria voor goedkeuring, statusbeheer en logging. Daarnaast zijn er richtlijnen voor externe bijdragen en jaarlijkse evaluaties.
+
+De technische en functionele eisen van thesaurus-items omvatten unieke identifiers, meertalige ondersteuning en gestandaardiseerde relaties tussen begrippen. Metadata-vereisten, taalregels en definities volgens het differentia-principe zorgen voor een consistente en gestructureerde kennisopbouw. Door voortdurende evaluatie en feedback blijft de thesaurus dynamisch en up-to-date.
