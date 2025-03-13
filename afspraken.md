@@ -45,10 +45,12 @@ Definities moeten genus (breder begrip) en differentia (onderscheidende kenmerke
 </ul>
 </aside>
 
-## Begrippen en Concepten
+## Termen, Begrippen en Concepten
+
 - <dfn>Term</dfn>: Taalkundige weergave van een begrip.
 - <dfn>Begrip</dfn>: De eenduidige en gedefinieerde betekenis van een term.
 - <dfn>Concept</dfn>: Abstract idee, niet gebonden aan taal.
+
 ## Evaluatie en Doorontwikkeling
 - Periodieke evaluatie en feedbackverwerking.
 
