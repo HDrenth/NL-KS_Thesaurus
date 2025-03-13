@@ -29,9 +29,9 @@ let respecConfig = {
   // license: "cc-by",              // Attribution, met bronvermelding
   //-- TODO shortName is verplicht! (komt in de URL: kies logische afkorting)--------------
   shortName: "NL-KS_Thesaurus",
-  
+
   //edDraftURI = De URI van de draft version. Deze wordt automatisch afgeleid van de github URI; maar kan hier overschreven worden. 
-	//edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
+  //edDraftURI: ["https://geonovum.github.io", "/", "shortName"],
 
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
@@ -77,7 +77,7 @@ let respecConfig = {
   // - Kijk eerst naar de beschikbare www.specref.org .
   // - Kijk daarna in de organisatieconfig.
   // - Voeg dan pas hieronder toe.
-  localBiblio: 
+  localBiblio:
   {
     // MIM12: {
     //   id: "MIM12",
@@ -87,5 +87,29 @@ let respecConfig = {
     //   publisher: "Geonovum",
     //   date: "2024-06-13"
     // }
+    Term: {
+      id: "term",
+      title: "Taalkundige weergave van een begrip",
+      href: "link naar thesaurus",
+      status: "Definitief",
+      publisher: "Ketenstandaard",
+      date: "2025-03-13"
+    },
+    Begrip: {
+      id: "begrip",
+      title: "De eenduidige en gedefinieerde betekenis van een term",
+      href: "link naar thesaurus",
+      status: "Definitief",
+      publisher: "Ketenstandaard",
+      date: "2025-03-13"
+    },
+    Concept: {
+      id: "concept",
+      title: "Abstract idee, niet gebonden aan taal",
+      href: "link naar thesaurus",
+      status: "Definitief",
+      publisher: "Ketenstandaard",
+      date: "2025-03-13"
+    },
   }
 };

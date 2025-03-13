@@ -1,5 +1,5 @@
 # Eisen aan Thesaurus-items
-Aan de begrippen en termen in een thesaurus zullen bepaalde eisen gesteld worden om éénduidig gebruik mogelijk te maken.
+Aan een [[begrip]] of [[term]] in een thesaurus zullen bepaalde eisen gesteld worden om éénduidig gebruik mogelijk te maken.
 Als uitgangspunt is het boek "Organiseer je informatie" genomen en wordt sterk aangeraden om door te nemen voordat een beheerder aan de slag gaat met het bewerken van de thesaurus.
 //TODO: hoofdstukken benoemen
 
@@ -45,10 +45,6 @@ Definities moeten genus (breder begrip) en differentia (onderscheidende kenmerke
 </ul>
 </aside>
 
-## Begrippen en Concepten
-- Term: Taalkundige weergave van een begrip.
-- Begrip: De eenduidige en gedefinieerde betekenis van een term.
-- Concept: Abstract idee, niet gebonden aan taal.
 ## Evaluatie en Doorontwikkeling
 - Periodieke evaluatie en feedbackverwerking.
 
