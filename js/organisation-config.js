@@ -5,7 +5,7 @@ var organisationConfig = {
     nl_organisationStylesURL: "https://tools.geostandaarden.nl/respec/style/",
     nl_organisationPublishURL: "https://docs.ketenstandaard.nl/",
     logos: [{
-        src: "https://ketenstandaard.nl/app/themes/theme-ketenstandaard/public/images/logo-ketenstandaard-bouw-en-techniek.351dbb.svg",
+        src: "https://dico-adresregister.ketenstandaard.nl/img/logo-ketenstandaard.86959614.svg",
         alt: "Ketenstandaard",
         id: "Ketenstandaard",
         height: 67,
