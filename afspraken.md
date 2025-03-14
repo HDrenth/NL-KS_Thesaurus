@@ -17,7 +17,7 @@ Elk item moet bevatten:
 - Smallere term (skos:narrower)
 - Gerelateerde term (skos:related)
 - Synoniemen (skos:altLabel)
-<aside class="note" title="Voorbeeld">
+<aside class="example" title="Voorbeeld">
 <p>
 Een begrip "metselwerk" (skos:preflabel) kan de volgende relaties hebben:</p>
 <ul>
@@ -38,7 +38,7 @@ Een begrip "metselwerk" (skos:preflabel) kan de volgende relaties hebben:</p>
 - Gebruik natuurlijke taal: 'Algemeen Bouwend Nederlands'
 ## Definities en Differentia-principes
 Definities moeten genus (breder begrip) en differentia (onderscheidende kenmerken) bevatten.
-<aside class="note" title="Goede definities:">
+<aside class="example" title="Goede definities:">
 <ul>
 <li> "Een raam is een bouwdeel (genus) dat daglicht en/of lucht doorlaat en meestal transparant is (differentia)." </li>
 <li> "Een kozijn is een frame (genus) dat een raam of deur omsluit en deze verbindt met de omringende constructie (differentia)." </li>
